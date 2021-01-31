@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="370px"
+        android:paddingRight="90dp"
+        android:text="@string/qual_o_valor_em_real" />
+
+    <TextView
+        android:id="@+id/qual_o_valor_em_real"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="400px"
+        android:paddingRight="60dp"
+        android:text="@string/qual_o_valor_em_real" />
+
+    <EditText
+        android:id="@+id/edit_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:paddingLeft="8px"
+        android:paddingRight="10dp"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190dp"
+        android:paddingLeft="450px"
+        android:paddingRight="149dp"
+        android:text="@string/valor_em_dolar" />
+
+    <TextView
+        android:id="@+id/text_dolar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="225dp"
+        android:paddingLeft="469px"
+        android:paddingRight="155dp"
+        android:text="@string/valor_em_dolar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="255dp"
+        android:paddingLeft="449px"
+        android:paddingRight="159dp"
+        android:text="@string/valor_em_euro" />
+
+    <TextView
+        android:id="@+id/text_euro"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="285dp"
+        android:paddingLeft="489px"
+        android:paddingRight="179dp"
+        android:text="@string/valor_em_euro" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="1096px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="350dp"
+        android:text="@string/calcular" />
+
+</RelativeLayout>
